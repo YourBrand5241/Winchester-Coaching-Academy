@@ -1,11 +1,13 @@
 // ---- Demo data ----
-// Swap this list for a real business's products/services later —
-// nothing else in this file needs to change.
+// Winchester Coaching Academy's real sessions/packages — this is the
+// only part of the app that changes from business to business; everything
+// else (basket, booking, checkout) stays exactly the same.
 const PRODUCTS = [
-  { id: 1, name: "Standard Package", desc: "Our most popular option, great for most customers.", price: 15.00, emoji: "⭐" },
-  { id: 2, name: "Premium Package", desc: "A more thorough option with extra time and attention.", price: 25.00, emoji: "✨" },
-  { id: 3, name: "Quick Option", desc: "A faster, lighter version for when time is tight.", price: 8.00, emoji: "⚡" },
-  { id: 4, name: "Add-on Extra", desc: "A small extra that pairs well with any package.", price: 3.50, emoji: "➕" },
+  { id: 1, name: "1-to-1 Coaching Session", desc: "Personalised one-on-one football coaching session.", price: 30.00, emoji: "⚽" },
+  { id: 2, name: "Group Session", desc: "Small-group coaching session for developing skills together.", price: 15.00, emoji: "👥" },
+  { id: 3, name: "Bronze Birthday Party Package", desc: "A fun football-themed party session for the birthday group.", price: 75.00, emoji: "🥉" },
+  { id: 4, name: "Silver Birthday Party Package", desc: "Extended party package with more games and activities.", price: 120.00, emoji: "🥈" },
+  { id: 5, name: "Gold Birthday Party Package", desc: "Our full birthday experience — games, prizes and a party host.", price: 180.00, emoji: "🥇" },
 ];
 
 let basket = []; // { id, name, price, qty }
